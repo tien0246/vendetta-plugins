@@ -1,6 +1,6 @@
-import { findByName, findByProps } from "@vendetta/metro";
-import { constants, React } from "@vendetta/metro/common";
-import { instead, after } from "@vendetta/patcher";
+import { findByName, findByProps } from "@bunny/metro";
+import { constants, React } from "@bunny/metro/common";
+import { instead, after } from "@bunny/patcher";
 import HiddenChannel from "./HiddenChannel";
 
 let patches = [];

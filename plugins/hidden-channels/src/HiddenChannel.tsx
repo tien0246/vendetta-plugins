@@ -1,7 +1,7 @@
-import { stylesheet, constants, moment, toasts, clipboard } from "@vendetta/metro/common";
-import { findByProps } from "@vendetta/metro";
-import { semanticColors } from '@vendetta/ui';
-import { getAssetByName } from "@vendetta/ui/assets";
+import { stylesheet, constants, moment, toasts, clipboard } from "@bunny/metro/common";
+import { findByProps } from "@bunny/metro";
+import { semanticColors } from '@bunny/ui';
+import { getAssetByName } from "@bunny/ui/assets";
 
 const {View, Text, Pressable } = findByProps("Button", "Text", "View");
 
